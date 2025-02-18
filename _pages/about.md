@@ -17,18 +17,19 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+I am PhD student at the School of Cyber Engineering, Xidian University,China, and also a visiting student at the College ofComputing and Data Science (CCDS) at Nanyang Technological University (NTU). 
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+My research interest includes cryptography, secure aggregation in federated learning and privacy-preserving machine learning. I have published 5 papers at the journals with total <a href='https://scholar.google.com/citations?user=wATzPDYAAAAJ'>google scholar<strong>
+</a> <a href='https://scholar.google.com/citations?user=wATzPDYAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.02*: &nbsp;🎉🎉 The paper "Enhancing Security and Privacy in Federated Learning using  Low-Dimensional Update Representation and Proximity Based Defense" is accpted by ``TKDE 2025``. 
+
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
@@ -38,21 +39,37 @@ My research interest includes neural machine translation and computer vision. I 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 </div>
-</div>
+</div> -->
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+- ``TKDE 2025``[Enhancing Security and Privacy in Federated Learning using  Low-Dimensional Update Representation and Proximity Based Defense](https://ieeexplore.ieee.org/abstract/document/10878290), IEEE Transactions on Knowledge and Data Engineering, **Li Wenjie**, Fan Kai, Zhang Jingyuan, Li Hui, Lim Wei Yang Bryan, Yang Qiang.
+
+- ``IOTJ 2023`` [PBFL: Privacy-Preserving and Byzantine-Robust Federated Learning Empowered Industry 4.0](https://ieeexplore.ieee.org/abstract/document/10251424), IEEE Internet of Things Journal, **Li Wenjie**, Fan Kai, Yang Kan, Yang Yintang, Li Hui.
+
+- ``IOTJ 2023`` [Flsg: a novel defense strategy against inference attacks in vertical federated learning](https://ieeexplore.ieee.org/abstract/document/10210670), IEEE Internet of Things Journal, Kai Fan, Hong Jingtao, **Wenjie Li**, Xingwen Zhao, Hui Li, Yintang Yang.
+
+- ``PPNA 2023`` [A revocable attribute-based encryption EHR sharing scheme with multiple authorities in blockchain](https://link.springer.com/article/10.1007/s12083-022-01387-4), Peer-to-peer Networking and Applications, Yang Xiaohui, **Li Wenjie\***, Fan Kai.
+
+- ``C&S 2020`` [A zero-knowledge-proof-based digital identity management scheme in blockchain](https://www.sciencedirect.com/science/article/abs/pii/S0167404820303230), Computers & Security, Yang Xiaohui, **Li Wenjie\***.
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2021* Outstanding graduate of Hebei province. 
+- *2020* Graduate National Scholarship. 
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
-# 💬 Invited Talks
+- *2023.11 - 2024.10*, Visiting Ph.D. Student, College of Computing and Data Science, Nanyang Technological University, Supervised by [Wei Yang Bryan Lim](https://sites.google.com/view/wyb).
+
+- *2021.09 - 2025.06*, Ph.D. in Cybersecurity, School of Network and Information Security, Xidian University, Supervised by [Fan Kai](https://web.xidian.edu.cn/fankai/).
+
+- *2018.09 - 2021.06*, Master of Cybersecurity, School of Cybersecurity and Computer Science, Hebei University, Supervised by [Yang Xiaohui](https://cs.hbu.edu.cn/szdw/Profile?id=22).
+
+- *2014.09 - 2018.06*, Bachelor of Network Engineering, School of Cybersecurity and Computer Science, Hebei University.
+
+<!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- *2022.10 - 2023.10*, Cryptographic engineering intern, zkMe Technology Limited, China.
+- *2020.03 - 2021.06*, CTF training instructor, China.
+- *2018.06 - 2018.08*, Security engineering intern, Dunan Technology Limited, China.
