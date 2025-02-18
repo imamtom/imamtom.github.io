@@ -19,9 +19,7 @@ redirect_from:
 
 I am PhD student at the School of Cyber Engineering, Xidian University,China, and also a visiting student at the College ofComputing and Data Science (CCDS) at Nanyang Technological University (NTU). 
 
-My research interest includes cryptography, secure aggregation in federated learning and privacy-preserving machine learning. I have published 5 papers at the journals with total <a href='https://scholar.google.com/citations?user=wATzPDYAAAAJ'>google scholar<strong>
-</a> <a href='https://scholar.google.com/citations?user=wATzPDYAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
-
+My research interest includes cryptography, secure aggregation in federated learning and privacy-preserving machine learning. I have published 5 papers <a href='https://scholar.google.com/citations?user=wATzPDYAAAAJ'><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fimamtom%2Fimamtom.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> at the journals.
 
 # 🔥 News
 - *2025.02*: &nbsp;🎉🎉 The paper "Enhancing Security and Privacy in Federated Learning using  Low-Dimensional Update Representation and Proximity Based Defense" is accpted by ``TKDE 2025``. 
