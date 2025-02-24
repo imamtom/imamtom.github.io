@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am PhD student at the School of Cyber Engineering, Xidian University,China, and also a visiting student at the College ofComputing and Data Science (CCDS) at Nanyang Technological University (NTU). 
+I am currently pursuing my PhD at the School of Cyber Engineering, Xidian University, China, while also serving as a visiting student at the College of Computing and Data Science (CCDS), Nanyang Technological University (NTU).
 
 My research interest includes cryptography, secure aggregation in federated learning and privacy-preserving machine learning. I have published 5 papers <a href='https://scholar.google.com/citations?user=wATzPDYAAAAJ'><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fimamtom%2Fimamtom.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> at the journals.
 
@@ -39,7 +39,7 @@ My research interest includes cryptography, secure aggregation in federated lear
 </div>
 </div> -->
 
-- ``TKDE 2025``[Enhancing Security and Privacy in Federated Learning using  Low-Dimensional Update Representation and Proximity Based Defense](https://ieeexplore.ieee.org/abstract/document/10878290), IEEE Transactions on Knowledge and Data Engineering, **Li Wenjie**, Fan Kai, Zhang Jingyuan, Li Hui, Lim Wei Yang Bryan, Yang Qiang.
+- ``TKDE 2025``[Enhancing Security and Privacy in Federated Learning using  Low-Dimensional Update Representation and Proximity Based Defense](https://ieeexplore.ieee.org/abstract/document/10878290), IEEE Transactions on Knowledge and Data Engineering, **Li Wenjie**, Fan Kai, Zhang Jingyuan, Li Hui, Lim Wei Yang Bryan, Yang Qiang. [More details](https://imamtom.github.io/FLURP/)
 
 - ``IOTJ 2023`` [PBFL: Privacy-Preserving and Byzantine-Robust Federated Learning Empowered Industry 4.0](https://ieeexplore.ieee.org/abstract/document/10251424), IEEE Internet of Things Journal, **Li Wenjie**, Fan Kai, Yang Kan, Yang Yintang, Li Hui.
 
