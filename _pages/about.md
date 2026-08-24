@@ -33,7 +33,7 @@ Li Wenjie received the Ph.D. degree from Xidian University in 2025. He is curren
 
 # 💡 Research directions 
 
-- Privacy-preserving (un)federated learning
+- (un)federated learning
 - Trustworthy and adversarially-robust machine learning
 - Applied cryptography (e.g., Zero-Knowledge Proofs, Secure Multi-Party Computation) for machine-learning systems
 
