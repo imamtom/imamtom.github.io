@@ -1,0 +1,53 @@
+# Sidebar profile + page-level SEO metadata, keyed by `author:` in page frontmatter.
+#
+# How the lookup works:
+#   _pages/about.md      → author: default  → uses the `default:` block below (English)
+#   _pages/about-zh.md   → author: zh       → uses the `zh:` block below (Chinese)
+#
+# If a page has no `author:` frontmatter, Jekyll falls back to `site.author` from
+# _config.yml (kept as a safety net for any other page types that might appear).
+#
+# Schema (most keys are optional and skipped by the sidebar template when empty):
+#   name, avatar, bio, location, employer, email
+#   social keys (one per platform, each rendered only when non-empty):
+#     uri, github, googlescholar, orcid, linkedin, twitter, weibo, ...
+#   SEO metadata (consumed by _includes/seo.html):
+#     title       <title> and og:title
+#     description meta description and og:description
+#     locale      og:locale (e.g. "en", "zh_CN")
+#     site_name   og:site_name
+
+# ---------- English (default) ----------
+default:
+  name: "Li Wenjie(李文杰)"
+  avatar: "images/android-chrome-512x512.png"
+  bio: "Hebei Normal University"
+  location: "Shijiazhuang, China"
+  email: "liwenjie@hebtu.edu.cn"
+  github: "imamtom"
+  googlescholar: "https://scholar.google.com/citations?user=wATzPDYAAAAJ"
+  orcid: "https://orcid.org/0000-0002-6586-8543"
+
+  # SEO
+  title: "Li Wenjie(李文杰) - Homepage"
+  description: "Lecturer at School of Computer and Cyber Security, Hebei Normal University, China. Research interests include federated (un)learning and trustworthy artificial intelligence."
+  locale: "en"
+  site_name: "Li Wenjie(李文杰) - Homepage"
+
+
+# ---------- Chinese (中文) ----------
+zh:
+  name: "李文杰"
+  avatar: "images/android-chrome-512x512.png"
+  bio: "河北师范大学"
+  location: "中国 石家庄"
+  email: "liwenjie@hebtu.edu.cn"
+  github: "imamtom"
+  googlescholar: "https://scholar.google.com/citations?user=wATzPDYAAAAJ"
+  orcid: "https://orcid.org/0000-0002-6586-8543"
+
+  # SEO
+  title: "李文杰 - 个人主页"
+  description: "河北师范大学计算机与网络安全学院讲师，研究方向包括联邦（遗忘）学习与可信人工智能"
+  locale: "zh_CN"
+  site_name: "李文杰 - 个人主页"

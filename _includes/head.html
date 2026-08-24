@@ -11,9 +11,13 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="assets/css/main.css">
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 
 <meta http-equiv="cleartype" content="on">
-<head>
-  <base target="_blank">
-</head>
+
+<!--
+  Note: a previous version of this file contained `<head><base target="_blank"></head>`
+  inherited from an old upstream template. That tag was nested inside the document
+  body (malformed) and caused same-page fragment links — especially those containing
+  Chinese characters — to navigate instead of scroll. Removed.
+-->

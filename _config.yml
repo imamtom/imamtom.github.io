@@ -6,8 +6,10 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Li Wenjie(李文杰) - Homepage"
-description              : "PhD Student in Xidian University, focusing on federated learning, privacy-preserving computing."
+# title / description / locale are no longer set here. They live in
+# _data/authors.yml under the `default:` block (English) and `zh:` block
+# (Chinese), selected by the `author:` key in each page's frontmatter.
+# _includes/seo.html looks them up via site.data.authors[page.author].
 repository               : "imamtom/imamtom.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -20,48 +22,19 @@ bing_site_verification   :  # get bing_site_verification from https://www.bing.c
 baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
 
 # Site Author
-author:
-  name             : "Li Wenjie(李文杰)"
-  avatar           : "images/android-chrome-512x512.png"
-  bio              : "Xidian University"
-  location         : "Xi'an, China"
-  employer         : # "Xidian University"
-  pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=wATzPDYAAAAJ"
-  email            : "tom643190686@gmail.com"
-  researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : "imamtom"
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  lastfm           :
-  linkedin         : # e.g., "linkedin username"
-  dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : "https://orcid.org/0000-0002-6586-8543"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
-  twitter          : 
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
+# The English sidebar profile used to live here. It has moved to
+# _data/authors.yml under the `default:` block, alongside the `zh:` block
+# for the Chinese page. Keep this file for Jekyll build settings only.
+#
+# If you add a page without `author:` frontmatter, Jekyll will fall back
+# to `site.author` — define a minimal `author:` block here if that case
+# arises.
 
 
 # Reading Files
 include:
   - .htaccess
+  - .well-known
   - _pages
   - files
 exclude:

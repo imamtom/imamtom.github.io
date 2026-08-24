@@ -5,8 +5,23 @@
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me">Homepage</a></li>
-          {% for link in site.data.navigation.main %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+          {%- comment -%} Pick the right nav file based on the current page's permalink. The Chinese page uses /zh/-prefixed URLs so clicks stay on /zh/ instead of jumping back to the English page.{%- endcomment -%}
+          {% if page.url contains "/zh/" %}
+            {% assign nav = site.data.navigation-zh.main %}
+          {% else %}
+            {% assign nav = site.data.navigation.main %}
+          {% endif %}
+          {% for link in nav %}
+            {%- comment -%} Highlight the link whose url matches the current page (handles "/" for the root page and "/zh/" for the Chinese page).{%- endcomment -%}
+            {% assign link_is_active = false %}
+            {% if link.url == page.url %}
+              {% assign link_is_active = true %}
+            {% elsif link.url != "/" and link.url != "/zh/" and page.url contains link.url %}
+              {% assign link_is_active = true %}
+            {% endif %}
+            <li class="masthead__menu-item{% if link_is_active %} masthead__menu-item--active{% endif %}">
+              <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+            </li>
           {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>

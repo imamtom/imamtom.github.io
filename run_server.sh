@@ -1,1 +1,1 @@
-bundle exec jekyll liveserve
+bash bibtex_build/render.sh

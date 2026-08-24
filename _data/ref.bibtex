@@ -1,0 +1,127 @@
+% BibTeX source for the publications section.
+% Rendered to GB/T 7714-2015 (numeric) by bibtex_build/render.sh
+% Order in this file is preserved by pandoc — newest first.
+
+
+@inproceedings{zhang_dualtap_2026,
+	title = {{DualTAP}: {A} {Dual}-{Task} {Adversarial} {Protector} for {Mobile} {MLLM} {Agents}},
+	url = {http://arxiv.org/abs/2511.13248},
+	doi = {10.48550/arXiv.2511.13248},
+	abstract = {The reliance of mobile GUI agents on Multimodal Large Language Models (MLLMs) introduces a severe privacy vulnerability: screenshots containing Personally Identifiable Information (PII) are often sent to untrusted, third-party routers. These routers can exploit their own MLLMs to mine this data, violating user privacy. Existing privacy perturbations fail the critical dual challenge of this scenario: protecting PII from the router's MLLM while simultaneously preserving task utility for the agent's MLLM. To address this gap, we propose the Dual-Task Adversarial Protector (DualTAP), a novel framework that, for the first time, explicitly decouples these conflicting objectives. DualTAP trains a lightweight generator using two key innovations: (i) a contrastive attention module that precisely identifies and targets only the PII-sensitive regions, and (ii) a dual-task adversarial objective that simultaneously minimizes a task-preservation loss (to maintain agent utility) and a privacy-interference loss (to suppress PII leakage). To facilitate this study, we introduce PrivScreen, a new dataset of annotated mobile screenshots designed specifically for this dual-task evaluation. Comprehensive experiments on six diverse MLLMs (e.g., GPT-5) demonstrate DualTAP's state-of-the-art protection. It reduces the average privacy leakage rate by 31.6 percentage points (a 3.0x relative improvement) while, critically, maintaining an 80.8\% task success rate - a negligible drop from the 83.6\% unprotected baseline. DualTAP presents the first viable solution to the privacy-utility trade-off in mobile MLLM agents.},
+	author = {Zhang, Fuyao and Zhang, Jiaming and Wang, Che and Sun, Xiongtao and Hao, Yurong and Guan, Guowei and Li, Wenjie and Huang, Longtao and Lim, Wei Yang Bryan},
+  booktitle = {ECCV},
+	year = {2026},
+	keywords = {Computer Science - Cryptography and Security},
+}
+
+
+@ARTICLE{11450416,
+  author={Fan, Kai and Wang, Huixuan and Li, Wenjie and Li, Xiang and Li, Hui and Zhang, Kuan and Yang, Yintang and Wang, Lianhai},
+  journal={IEEE Internet of Things Journal}, 
+  title={NeuDFL: Efficient Neuron-Based Defense Against Label Flipping Attacks on Non-IID Data}, 
+  year={2026},
+  volume={13},
+  number={12},
+  pages={26599-26607},
+  keywords={Training;Computational modeling;Federated learning;Accuracy;Internet of Things;Data models;Vectors;Servers;Robustness;Analytical models;Efficiency;federated learning (FL);label flipping attack;model parameter-based detection;robustness},
+  doi={10.1109/JIOT.2026.3676632},
+  url = {https://ieeexplore.ieee.org/abstract/document/11450416}
+}
+
+@ARTICLE{11558348,
+  author={Zhang, Pingle and Fan, Kai and Li, Xiang and Li, Wenjie and Zhang, Kuan and Li, Hui and Yang, Yintang and Wang, Lianhai},
+  journal={IEEE Internet of Things Journal}, 
+  title={HBA: Hijacking-based Backdoor Attack for Vertical Federated Learning}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Federated learning;Labeling;Internet of Things;Modeling;Training;Learning (artificial intelligence);Accuracy;Automatic speech recognition;Privacy;Servers;Vertical Federated Learning;Split Learning;Label Inference;Backdoor Attack;Hijack Attack;Federated learning security},
+  doi={10.1109/JIOT.2026.3702700},
+  url    = {https://ieeexplore.ieee.org/abstract/document/11558348}
+}
+
+
+@inproceedings{zhang_oblivionis_2026,
+	title = {Oblivionis: {A} {Lightweight} {Learning} and {Unlearning} {Framework} for {Federated} {Large} {Language} {Models}},
+	volume = {40},
+	issn = {2374-3468},
+	url = {https://ojs.aaai.org/index.php/AAAI/article/view/40045},
+	doi = {10.1609/aaai.v40i33.40045},
+	abstract = {Large Language Models (LLMs) increasingly leverage Federated Learning (FL) to utilize private, task-specific datasets for fine-tuning while preserving data privacy. However, while federated LLM frameworks effectively enable collaborative training without raw data sharing, they critically lack built-in mechanisms for regulatory compliance like GDPR’s right to be forgotten. Integrating private data heightens concerns over data quality and long-term governance, yet existing distributed training frameworks offer no principled way to selectively remove specific client contributions post-training. Due to distributed data silos, stringent privacy constraints, and the intricacies of interdependent model aggregation, federated LLM unlearning is significantly more complex than centralized LLM unlearning. To address this gap, we introduce Oblivionis, a lightweight learning and unlearning framework that enables clients to selectively remove specific private data during federated LLM training, enhancing trustworthiness and regulatory compliance. By unifying FL and unlearning as a dual optimization objective, we incorporate 6 FL and 5 unlearning algorithms for comprehensive evaluation and comparative analysis, establishing a robust pipeline for federated LLM unlearning. Extensive experiments demonstrate that Oblivionis outperforms local training, achieving a robust balance between forgetting efficacy and model utility, with cross-algorithm comparisons providing clear directions for future LLM development.},
+	language = {en-US},
+	number = {33},
+	booktitle = {Proceedings of the {AAAI} {Conference} on {Artificial} {Intelligence}},
+	author = {Zhang, Fuyao and Yan, Xinyu and Wu, Tiantong and Li, Wenjie and Chen, Tianxiang and Cao, Yang and Yan, Ran and Huang, Longtao and Lim, Wei Yang Bryan and Yang, Qiang},
+	month = mar,
+	year = {2026},
+	pages = {28185--28193},
+}
+
+@article{li2025tkde,
+  title  = {Enhancing Security and Privacy in Federated Learning using Low-Dimensional Update Representation and Proximity Based Defense},
+  author = {Li, Wenjie and Fan, Kai and Zhang, Jingyuan and Li, Hui and Lim, Wei Yang Bryan and Yang, Qiang},
+  journal = {IEEE Transactions on Knowledge and Data Engineering},
+  year   = {2025},
+  publisher = {IEEE},
+  doi    = {10.1109/TKDE.2025.3539717},
+  url    = {https://ieeexplore.ieee.org/abstract/document/10878290}
+}
+
+@article{li2023pbfl,
+  author={Li, Wenjie and Fan, Kai and Yang, Kan and Yang, Yintang and Li, Hui},
+  journal={IEEE Internet of Things Journal}, 
+  title={PBFL: Privacy-Preserving and Byzantine-Robust Federated-Learning-Empowered Industry 4.0}, 
+  year={2024},
+  volume={11},
+  number={4},
+  pages={7128-7140},
+  keywords={Data models;Fourth Industrial Revolution;Computational modeling;Production facilities;Production;Artificial intelligence;Training;Byzantine robustness;federated learning (FL);industrial artificial intelligence (AI);privacy protection},
+  doi={10.1109/JIOT.2023.3315226},
+  url={https://ieeexplore.ieee.org/abstract/document/10251424}
+}
+
+
+@article{fan2023flsg,
+  author={Fan, Kai and Hong, Jingtao and Li, Wenjie and Zhao, Xingwen and Li, Hui and Yang, Yintang},
+  journal={IEEE Internet of Things Journal}, 
+  title={FLSG: A Novel Defense Strategy Against Inference Attacks in Vertical Federated Learning}, 
+  year={2024},
+  volume={11},
+  number={2},
+  pages={1816-1826},
+  keywords={Training;Servers;Federated learning;Computational modeling;Privacy;Security;Predictive models;Cosine distance;label inference attack;similar gradients;vertical federated learning (VFL)},
+  doi={10.1109/JIOT.2023.3302792},
+  url    = {https://ieeexplore.ieee.org/abstract/document/10210670}
+}
+
+
+@article{yang2023ppna,
+	title = {A revocable attribute-based encryption {EHR} sharing scheme with multiple authorities in blockchain},
+	volume = {16},
+	issn = {1936-6450},
+	url = {https://doi.org/10.1007/s12083-022-01387-4},
+	doi = {10.1007/s12083-022-01387-4},
+	abstract = {With the development of digital healthcare, sharing electronic medical record data has become an indispensable part of improving medical conditions. Aiming at the centralized power caused by the single attribute authority in current CP-ABE schemes and the problem that cloud servers are curious and even malicious, we design a revocable CP-ABE EHR sharing scheme with multiple authorities (MA-RABE) in blockchain. In this solution, a group of authorities complete user attribute distribution, key generation and user management through secret sharing and transactions. Besides, we innovatively implemented a distributed one-way anonymous key agreement so that other participants cannot obtain useful information from the fully hidden policy embedded in the ciphertext. Taking into account the computational overhead of a large number of bilinear operations in the decryption process, the solution also supports the cloud server to pre-decrypt the ciphertext, and the data user only needs to perform exponentiation operation once to obtain the plaintext from the pre-decryption result. Theoretical analysis and performance evaluation show that the scheme has reliable security and lower user revocation and ciphertext update overhead.},
+	number = {1},
+	journal = {Peer-to-Peer Networking and Applications},
+	author = {Yang, Xiaohui and Li, Wenjie and Fan, Kai},
+	month = jan,
+	year = {2023},
+	pages = {107--125},
+}
+
+
+@article{YANG2020102050,
+title = {A zero-knowledge-proof-based digital identity management scheme in blockchain},
+journal = {Computers & Security},
+volume = {99},
+pages = {102050},
+year = {2020},
+issn = {0167-4048},
+doi = {https://doi.org/10.1016/j.cose.2020.102050},
+url = {https://www.sciencedirect.com/science/article/pii/S0167404820303230},
+author = {Xiaohui Yang and Wenjie Li},
+keywords = {Blockchain, Zero-knowledge proof, Smart contract, Digital identity, Privacy protection},
+abstract = {The traditional centralized digital identity management system (DIMS) has been subject to threats such as fragmented identity, single point of failure, internal attacks and privacy leakage. Emerging blockchain technology allows DIMSs to be deployed in it, which largely alleviates the problems caused by the centralized third party, but its inherent transparency and lack of privacy pose a huge challenge to DIMSs. In this regard, we leverage the smart contracts and zero-knowledge proof (ZKP) algorithms to improve the existing claim identity model in blockchain to realize the identity unlinkability, effectively avoiding the exposure of the ownership of attributes. Furthermore, we implement a system prototype named BZDIMS that includes a challenge-response protocol, which allows users to selectively disclose their ownership of attributes to service providers to protect users’ behavior privacy. Performance evaluation and security analysis show that our scheme achieves effective attribute privacy protection and a wider application scope compared with the prior model.}
+}

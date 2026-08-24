@@ -1,3 +1,82 @@
+# ============================================================
+# Jekyll 构建产物
+# ============================================================
+
+# Jekyll 生成的静态站点（每次 `jekyll build` 或 `jekyll serve` 都会重建）
 _site/
-push.sh
+
+# Jekyll 增量构建缓存（加速 `jekyll serve` 的文件监听）
+.jekyll-cache/
+.jekyll-metadata
+
+# Sass 编译缓存
+.sass-cache/
+
+
+# ============================================================
+# Bundler / Ruby
+# ============================================================
+
+# Bundler 的本地配置目录
+.bundle/
+
+# Bundler 把 gem 安装到项目本地时的目录（如果使用 `bundle install --path`）
+vendor/bundle/
+
+
+# ============================================================
+# Python（Google Scholar 爬虫）
+# ============================================================
+
+# Python 虚拟环境（如果在项目根目录创建）
+venv/
+.venv/
+env/
+
+
+# ============================================================
+# 操作系统 / 编辑器产生的临时文件
+# ============================================================
+
+# macOS Finder 在每个目录生成的元数据文件
 .DS_Store
+
+# Windows 资源管理器在每个目录生成的缩略图缓存
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# vim 交换文件
+*.swp
+*.swo
+
+# Emacs 备份文件
+*~
+\#*\#
+
+# 通用备份文件（注意：Gemfile.lock.bak 等手动的备份也应忽略）
+*.bak
+*.tmp
+*.log
+
+# JetBrains IDE（IntelliJ IDEA、PyCharm、WebStorm 等）
+.idea/
+
+# VSCode 用户级配置（项目共享配置已通过 .vscode/settings.json 提交）
+.vscode/
+
+# Claude Code 本地配置（包含 settings.json 中用户的本地文件系统路径、
+# 权限允许列表等，不属于仓库内容）。如果未来需要共享 agents / skills /
+# commands 等项目级配置，可以用 `git add -f .claude/<file>` 强制添加。
+.claude/
+
+
+# ============================================================
+# 项目特有的临时文件
+# ============================================================
+
+# 旧的部署脚本（已被 GitHub Actions 取代）
+push.sh
+
+# Chrome DevTools 在本地调试时生成的工件（per-user，无实际内容）
+.well-known/

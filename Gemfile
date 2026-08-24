@@ -16,7 +16,9 @@ gem "github-pages", group: :jekyll_plugins
 
 # gem "jekyll"
 
-gem "wdm", "~> 0.1.0" if Gem.win_platform?
+# Provides IANA tz data without depending on system zoneinfo files.
+# Required on Windows for tzinfo 2.x to find Asia/Shanghai etc.
+gem "tzinfo-data"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
@@ -25,3 +27,4 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'hawkins'
 end
+
